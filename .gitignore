@@ -1,0 +1,28 @@
+# Секреты
+.env
+.env.*
+!.env.example
+credentials.json
+
+# Виртуальное окружение
+venv/
+.venv/
+
+# Временные файлы Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Файлы macOS
+.DS_Store
+
+
+
+.env
+credentials.json
+venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+data/processed_requests.json
+data/report.json
